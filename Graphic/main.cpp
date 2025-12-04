@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
         model = new Model(argv[1]);
     }
     else {
-        model = new Model("object1.obj");
+        model = new Model("object.obj");
     }
 
     TGAImage image(width, height, TGAImage::RGB);
